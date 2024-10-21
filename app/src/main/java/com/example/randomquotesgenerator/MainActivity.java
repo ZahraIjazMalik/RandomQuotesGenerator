@@ -14,7 +14,6 @@ import androidx.lifecycle.ViewModelProvider;
 public class MainActivity extends AppCompatActivity {
 
     private MainViewModel viewModel;
-    private TextView quoteIdTextView;
     private TextView quoteTextView;
     private TextView authorTextView;
     private ImageView getQuoteButton;
@@ -28,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        quoteIdTextView = findViewById(R.id.quoteIdTextView);
+
         quoteTextView = findViewById(R.id.quoteTextView);
         authorTextView = findViewById(R.id.authorTextView);
         getQuoteButton = findViewById(R.id.getQuoteButton);
